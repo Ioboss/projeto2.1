@@ -1,5 +1,10 @@
+body{
+  margin:0;
+}
+
 .topo {
   width: 100%;
+  margin: 0;
 }
 
 .foto {
@@ -7,21 +12,53 @@
 }
 .avatar {
   width: 200px;
+  position: relative;
+  top: -100px;
+  border: 5px solid #fff;
+  background-color: #fff;
+  border-radius: 50%;
 }
 
 .nome {
   text-align: center;
 }
 
+h1 {
+  position: relative;
+  top: -130px;
+  color: #99591b;
+}
+
+h2 {
+  position: relative;
+  top: -130px;
+  color: #99591b;
+}
+
 .conteudo {
+  position: relative;
   background-color: rgb(224, 167, 92);
   margin: 3%;
   line-height: 40px;
   border-radius: 15px;
-  display: inline-block;
   width: 25%;
+  float: left;
+  top: -150px;
 }
 
-h3 {
+
+.texto {
+  padding-left: 20px;
+  line-height: 25px;
+}
+
+.rumo{
   text-align: center;
+  position: relative;
+  top:-150px
+}
+h3 {
+  margin: 20px;
+  display: inline-block;
+  color: #99591b;
 }
